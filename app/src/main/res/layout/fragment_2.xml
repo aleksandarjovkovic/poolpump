@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/light_green">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal">
+        
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onToggleClicked" />
+    </LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal">
+
+	    <TextView
+	        android:id="@+id/set_currtime"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/set_curr"
+	        android:textSize="20sp"
+	    	android:textColor="@color/Regulartext"/>
+	    		
+	    <EditText
+	        android:id="@+id/curr_time"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="5"
+	        android:gravity="center"
+	        android:hint="@string/start_time"
+	        android:onClick="showTimePickerDialog" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal">
+
+	    <TextView
+	        android:id="@+id/set_start"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/set_start" 
+	        android:textSize="20sp"
+	    	android:textColor="@color/Regulartext"/>
+	    		
+	    <EditText
+	        android:id="@+id/start_time"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="5"
+	        android:gravity="center"
+	        android:hint="@string/start_time"
+	        android:onClick="showStartPickerDialog" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+	    <TextView
+	        android:id="@+id/set_avg_rt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/avg_runtime" 
+	        android:textSize="20sp"
+	    	android:textColor="@color/Regulartext"/>
+	</LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal" >
+    	<TextView
+	        android:id="@+id/set_rt_hr"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/hour" 
+	        android:textSize="20sp"
+	    	android:textColor="@color/Regulartext"/>
+	    <EditText
+	        android:id="@+id/hr_rt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="3"
+	        android:gravity="center"
+		    android:hint="@string/zero"
+	        android:onClick="showHourPicker"/>
+	    
+	    <TextView
+	        android:id="@+id/set_rt_min"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/minute" 
+	        android:textSize="20sp"
+	    	android:textColor="@color/Regulartext"/>
+	    <EditText
+	        android:id="@+id/min_rt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="3"
+	        android:gravity="center"
+		    android:hint="@string/zero"
+	        android:onClick="showMinutePicker"/>
+	</LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal" >
+        
+        <Button 
+            android:id="@+id/send_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/send_data"
+            android:onClick="senddatatoserver"/>
+
+    </LinearLayout>
+
+</LinearLayout>

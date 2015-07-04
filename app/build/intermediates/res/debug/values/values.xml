@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/aleksandar/AndroidStudioProjects/PoolPump/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <array name="colors_array">
+            <item>Red</item>
+            <item>Green</item>
+            <item>Blue</item>
+    </array>
+    <!-- From: file:/home/aleksandar/AndroidStudioProjects/PoolPump/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="Regulartext">#99CC00</color>
+    <color name="Titles">#588E48</color>
+    <color name="light_green">#F2FFE1</color>
+    <color name="pressed">#CC000000</color>
+    <!-- From: file:/home/aleksandar/AndroidStudioProjects/PoolPump/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/home/aleksandar/AndroidStudioProjects/PoolPump/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_search">Search_it</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Pool Pump Controller</string>
+    <string name="avg_runtime">Avg Run Time</string>
+    <string name="button_send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_message">Enter a Message</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hour">Hr:</string>
+    <string name="minute">Min:</string>
+    <string name="ok">OK</string>
+    <string name="pump_stat">Pump Status</string>
+    <string name="pump_status">Pump Status</string>
+    <string name="send_data">SEND</string>
+    <string name="set">SET</string>
+    <string name="set_curr">Current Time</string>
+    <string name="set_start">Start Time</string>
+    <string name="start_time">00:00 AM</string>
+    <string name="temp_current">Current Temp</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="title_activity_main_activity_actions">My Actions</string>
+    <string name="toggle_btn">Toggle Button</string>
+    <string name="update_screen">Update</string>
+    <string name="zero">00</string>
+    <!-- From: file:/home/aleksandar/AndroidStudioProjects/PoolPump/app/src/main/res/values/styles_greenstyle.xml -->
+    <eat-comment/>
+    <style name="ActionBar.Solid.Greenstyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_greenstyle</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_greenstyle</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_greenstyle</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Greenstyle</item>
+    </style>
+    <style name="ActionBar.Transparent.Greenstyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_greenstyle</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Greenstyle</item>
+    </style>
+    <style name="ActionBarTabStyle.Greenstyle" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_greenstyle</item>
+    </style>
+    <style name="ActionButton.CloseMode.Greenstyle" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_greenstyle</item>
+    </style>
+    <!-- From: file:/home/aleksandar/AndroidStudioProjects/PoolPump/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- From: file:/home/aleksandar/AndroidStudioProjects/PoolPump/app/src/main/res/values/styles_greenstyle.xml -->
+    <eat-comment/>
+    <style name="DropDownListView.Greenstyle" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_greenstyle</item>
+    </style>
+    <style name="DropDownNav.Greenstyle" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_greenstyle</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_greenstyle</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_greenstyle</item>
+    </style>
+    <style name="PopupMenu.Greenstyle" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_greenstyle</item>	
+    </style>
+    <style name="ProgressBar.Greenstyle" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_greenstyle</item>
+    </style>
+    <style name="Theme.Greenstyle" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_greenstyle</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Greenstyle</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Greenstyle</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Greenstyle</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Greenstyle</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Greenstyle</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_greenstyle</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_greenstyle</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Greenstyle</item>
+        
+        
+    </style>
+    <style name="Theme.Greenstyle.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Greenstyle</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Greenstyle</item>
+    </style>
+</resources>

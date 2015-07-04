@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Regulartext">#99CC00</color>
+    <color name="pressed">#CC000000</color>
+    <color name="Titles">#588E48</color>
+    <color name="light_green">#F2FFE1</color>
+</resources>

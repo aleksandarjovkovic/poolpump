@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Greenstyle" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_greenstyle</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Greenstyle</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Greenstyle</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Greenstyle</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Greenstyle</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Greenstyle</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_greenstyle</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_greenstyle</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Greenstyle</item>
+        
+        
+    </style>
+
+    <style name="ActionBar.Solid.Greenstyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_greenstyle</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_greenstyle</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_greenstyle</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Greenstyle</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Greenstyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_greenstyle</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Greenstyle</item>
+    </style>
+
+    <style name="PopupMenu.Greenstyle" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_greenstyle</item>	
+    </style>
+
+    <style name="DropDownListView.Greenstyle" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_greenstyle</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Greenstyle" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_greenstyle</item>
+    </style>
+
+    <style name="DropDownNav.Greenstyle" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_greenstyle</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_greenstyle</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_greenstyle</item>
+    </style>
+    
+    <style name="ProgressBar.Greenstyle" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_greenstyle</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Greenstyle" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_greenstyle</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Greenstyle.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Greenstyle</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Greenstyle</item>
+    </style>
+
+</resources>
